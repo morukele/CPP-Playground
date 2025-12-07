@@ -1,0 +1,7 @@
+.idea/
+linked_list.dSYM/
+output/
+cmake-build-debug/
+
+function_decleration
+linked_list
