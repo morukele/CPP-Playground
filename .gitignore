@@ -3,5 +3,6 @@ linked_list.dSYM/
 output/
 cmake-build-debug/
 
+# --- outfiles ---
 function_decleration
 linked_list
