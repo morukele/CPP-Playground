@@ -60,6 +60,32 @@ void mergeSort(std::vector<int>& arr)
     mergeTwoArrays(left, right, arr);
 }
 
+/**
+ * Sort an array using the bubble sort algorithm, by bubbling the smallest to the top.
+ * @param arr array to be sorted.
+ */
+void bubbleSort(std::vector<int>& arr)
+{
+    int const n = arr.size();
+    if (arr.empty() || n == 1)
+    {
+        return;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                // conduct swap
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
 
 int main()
 {
@@ -81,5 +107,19 @@ int main()
 
     // testing with another sort
     arr = {20, 10, 4, 5, 7, 0, -1};
+    std::cout << "Original array : ";
+    for (const auto& a : arr)
+    {
+        std::cout << a << " ";
+    }
+    std::cout << std::endl;
+
+    bubbleSort(arr);
+    std::cout << "Sorted array : ";
+    for (const auto& a : arr)
+    {
+        std::cout << a << " ";
+    }
+    std::cout << std::endl;
 
 }
