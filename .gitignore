@@ -6,3 +6,5 @@ cmake-build-debug/
 # --- outfiles ---
 function_decleration
 linked_list
+sort
+linked_list_to_array

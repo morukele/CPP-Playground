@@ -14,7 +14,6 @@ class ListNode
 {
 public:
     ListNode() : value{0}, next{nullptr} {}; // default constructor
-    ListNode(const ListNode&); // copy constructor
     // constructor that uses data
     explicit ListNode(const int data)  :  value{data}, next{nullptr} {}
 
@@ -28,6 +27,17 @@ public:
     explicit LinkedList() : head{nullptr}
     {
 
+    }
+
+    ~LinkedList()
+    {
+        ListNode* current = head;
+        while (current)
+        {
+            ListNode* next = current->next;
+            delete current;
+            current = next;
+        }
     }
 
     ListNode* head;
@@ -62,9 +72,9 @@ public:
  * A function to print a linked list.
  * Take in a linked list and displays the value to std::out.
  */
-void printLinkedList(const LinkedList* list)
+void displayLinkedList(const ListNode* head)
 {
-    auto* current = list->head;
+    auto* current = head;
 
     while (current != nullptr)
     {
@@ -74,72 +84,152 @@ void printLinkedList(const LinkedList* list)
     std::cout << "null" << std::endl;
 };
 
+/**
+ * A function to display the linked node to std::out
+ * @param node The node of the linked list to display
+ */
+void displayListNode(const ListNode* node)
+{
+    if (node != nullptr)
+    {
+        std::cout << "[" << node->value << "]" << std::endl;
+    } else
+    {
+        std::cout << "input node is null" << std::endl;
+    }
+}
+
 /*
  * A function to merge two sorted linked list.
  */
-LinkedList mergeTwoSortedLinkedList(LinkedList l1, LinkedList l2)
+ListNode* mergeTwoSortedLinkedList(ListNode* head1, ListNode* head2)
 {
-    const auto temp = new ListNode();
+    ListNode temp;
     // we us current to track position
     // return the dummy as opposed to current.
-    auto current = temp;
+    auto current = &temp;
 
-    while (l1.head && l2.head)
+    while (head1 && head2)
     {
-        if (l1.head->value > l2.head->value)
+        if (head1->value > head2->value)
         {
             // set current next to head
-            current->next =  l2.head;
+            current->next =  head2;
             // move l2 forward
-            l2.head = l2.head->next;
+            head2 = head2->next;
         } else
         {
-            current->next = l1.head;
-            l1.head = l1.head->next;
+            current->next = head1;
+            head1 = head1->next;
         }
         // move current regardless
         current = current->next;
     }
 
     // if there is residue in l1 and l2, add them to the list
-    if (l1.head) {current->next = l1.head;}
-    if (l2.head) {current->next = l2.head;}
+    if (head1) {current->next = head1;}
+    if (head2) {current->next = head2;}
 
+    return temp.next;
+}
 
-    // create new linked list
-    // set the head to the temp and then return it
-    auto mergedList = LinkedList();
-    mergedList.head = temp->next;
-    delete temp; // to avoid memory leak
-    return mergedList;
+/**
+ * A function to return the middle element of a linked list using fast and slow pointer.
+ * @param head The head of the linked list to return the middle node
+ * @return ListNode of the middle element
+ */
+ListNode* findMiddleOfLinkedList(ListNode* head)
+{
+    ListNode* slow = head;
+    ListNode* fast = head;
+    ListNode* prev = nullptr;
+
+    while (fast && fast->next)
+    {
+        prev = slow;
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    return prev; // Node before the middle
+}
+
+/**
+ * A function to merge sort a linked list
+ * @param head - the head of the linked list to sort
+ * @return - the head of the sorted linked list
+ */
+ListNode* sortLinkedList(ListNode* head)
+{
+    // handle base case: if the list is null or the next element is null
+    // return the list as is.
+    if (head == nullptr || head->next == nullptr)
+    {
+        return head;
+    }
+
+    // split linked list into two halves
+    ListNode* midPrev = findMiddleOfLinkedList(head);
+    ListNode* right = midPrev->next;
+    midPrev->next = nullptr; // effectively splitting the list, to create the self.
+    ListNode* left = head;
+
+    left = sortLinkedList(left);
+    right = sortLinkedList(right);
+
+    return mergeTwoSortedLinkedList(left, right);
 }
 
 
 int main()
 {
     // create linked list
-    auto l1 = LinkedList();
-    l1.insertAtEnd(5);
-    l1.insertAtEnd(10);
-    l1.insertAtEnd(15);
-    l1.insertAtEnd(20);
+    auto l1 = new LinkedList();
+    l1->insertAtEnd(10);
+    l1->insertAtEnd(5);
+    l1->insertAtEnd(3);
+    l1->insertAtEnd(20);
 
     // print out linkedlist
-    printLinkedList(&l1);
+    std::cout << "unsorted L1: " << std::endl;
+    displayLinkedList(l1->head);
+
+    // sort L1
+    ListNode* s1 = sortLinkedList(l1->head);
+    l1->head = s1;
+    std::cout << "sorted L1: " << std::endl;
+    displayLinkedList(l1->head);
 
     // create second list
-    auto l2 = LinkedList();
-    l2.insertAtEnd(1);
-    l2.insertAtEnd(2);
-    l2.insertAtEnd(3);
-    l2.insertAtEnd(4);
-    l2.insertAtEnd(5);
+    auto l2 = new LinkedList();
+    l2->insertAtEnd(1);
+    l2->insertAtEnd(25);
+    l2->insertAtEnd(3);
+    l2->insertAtEnd(50);
+    l2->insertAtEnd(5);
 
-    printLinkedList(&l2);
+    // print out L2
+    std::cout << "unsorted L2: " << std::endl;
+    displayLinkedList(l2->head);
+
+    // sort L2
+    ListNode* s2 = sortLinkedList(l2->head);
+    l2->head = s2;
+    std::cout << "sorted L2: " << std::endl;
+    displayLinkedList(l2->head);
 
     // merge list
-    const auto mergedList = mergeTwoSortedLinkedList(l1, l2);
-    printLinkedList(&mergedList);
+    const auto mergedList = mergeTwoSortedLinkedList(l1->head, l2->head);
+    std::cout << "merged list: " << std::endl;
+    displayLinkedList(mergedList);
+
+    // get middle element
+    const auto middle = findMiddleOfLinkedList(mergedList);
+    std::cout << "middle element in merged linked list: " << std::endl;
+    displayListNode(middle);
+
+    // handle memory leaks
+    delete l1;
+    delete l2;
 
     // return 0
     return 0;
