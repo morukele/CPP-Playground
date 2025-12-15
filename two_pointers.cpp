@@ -11,6 +11,32 @@ struct ListNode
     ListNode *next;
 };
 
+/**
+ * A linked list is a cycle if a pointer exists that points to a previous values in the linked list.
+ * If it is a cycle, we can use two pointers such that one moves at half the speed of the other,
+ * eventually, they will be at the same position.
+ * @param head head of linked list
+ * @return true if cycle
+ */
+bool isCycle(ListNode *head)
+{
+    // base case
+    if (head == nullptr || head->next == nullptr) {return false;}
+
+    // use two pointer algorithm
+    ListNode *fast = head;
+    ListNode * slow = head;
+    while (fast && fast->next)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+
+        if (fast == slow) {return true;}
+    }
+
+    return false;
+}
+
 ListNode* middleNode(ListNode* head)
 {
     ListNode* slow = head;
