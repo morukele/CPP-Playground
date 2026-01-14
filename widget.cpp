@@ -2,7 +2,7 @@
 // Created by Oghenemarho Orukele on 16/12/2025.
 //
 
-#include "widget.h"
+#include "include/widget.h"
 
 class widget::impl
 {

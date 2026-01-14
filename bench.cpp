@@ -6,7 +6,7 @@
 #include <random>
 #include <unordered_map>
 #include <benchmark/benchmark.h>
-#include "arena_allocator.h"
+#include "include/arena_allocator.h"
 
 static void BM_UnorderedMap_Insert(benchmark::State& state)
 {
