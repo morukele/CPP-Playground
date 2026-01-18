@@ -46,8 +46,8 @@ int lenghtOfLongestSubstringWithoutRepeatingCharacters(std::string& s)
 
 int main()
 {
-    std::string s = std::string("abccabcabcc");
-    const auto res = lenghtOfLongestSubstringWithoutRepeatingCharacters(s);
+    std::string string = std::string("abccabcabcc");
+    const auto res = lenghtOfLongestSubstringWithoutRepeatingCharacters(string);
     std::cout << res << std::endl;
     return 0;
 }

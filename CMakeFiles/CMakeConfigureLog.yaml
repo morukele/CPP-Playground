@@ -1,0 +1,3205 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/Users/oghenemarho/.cargo/bin/uname"
+      - "/Users/oghenemarho/.bun/bin/uname"
+      - "/Users/oghenemarho/.pixi/bin/uname"
+      - "/Users/oghenemarho/.deno/bin/uname"
+      - "/opt/homebrew/opt/binutils/bin/uname"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 25.2.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/Users/oghenemarho/.cargo/bin/gmake"
+      - "/Users/oghenemarho/.bun/bin/gmake"
+      - "/Users/oghenemarho/.pixi/bin/gmake"
+      - "/Users/oghenemarho/.deno/bin/gmake"
+      - "/opt/homebrew/opt/binutils/bin/gmake"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/opt/pmk/env/global/bin/gmake"
+      - "/opt/X11/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/usr/local/share/dotnet/gmake"
+      - "/Users/oghenemarho/.dotnet/tools/gmake"
+      - "/usr/local/go/bin/gmake"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
+      - "/Users/oghenemarho/.platformio/penv/bin/gmake"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/gmake"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/gmake"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/gmake"
+      - "/Users/oghenemarho/.orbstack/bin/gmake"
+      - "/Users/oghenemarho/.cargo/bin/make"
+      - "/Users/oghenemarho/.bun/bin/make"
+      - "/Users/oghenemarho/.pixi/bin/make"
+      - "/Users/oghenemarho/.deno/bin/make"
+      - "/opt/homebrew/opt/binutils/bin/make"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/Users/oghenemarho/.cargo/bin/c++"
+      - "/Users/oghenemarho/.bun/bin/c++"
+      - "/Users/oghenemarho/.pixi/bin/c++"
+      - "/Users/oghenemarho/.deno/bin/c++"
+      - "/opt/homebrew/opt/binutils/bin/c++"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/opt/homebrew/sbin/c++"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/c++"
+      - "/usr/local/bin/c++"
+      - "/System/Cryptexes/App/usr/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 514 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/oghenemarho/.cargo/bin/objcopy"
+      - "/Users/oghenemarho/.bun/bin/objcopy"
+      - "/Users/oghenemarho/.pixi/bin/objcopy"
+      - "/Users/oghenemarho/.deno/bin/objcopy"
+    found: "/opt/homebrew/opt/binutils/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/oghenemarho/.cargo/bin/readelf"
+      - "/Users/oghenemarho/.bun/bin/readelf"
+      - "/Users/oghenemarho/.pixi/bin/readelf"
+      - "/Users/oghenemarho/.deno/bin/readelf"
+    found: "/opt/homebrew/opt/binutils/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/oghenemarho/.cargo/bin/dlltool"
+      - "/Users/oghenemarho/.bun/bin/dlltool"
+      - "/Users/oghenemarho/.pixi/bin/dlltool"
+      - "/Users/oghenemarho/.deno/bin/dlltool"
+    found: "/opt/homebrew/opt/binutils/bin/dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/oghenemarho/.cargo/bin/addr2line"
+      - "/Users/oghenemarho/.bun/bin/addr2line"
+      - "/Users/oghenemarho/.pixi/bin/addr2line"
+      - "/Users/oghenemarho/.deno/bin/addr2line"
+    found: "/opt/homebrew/opt/binutils/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/oghenemarho/.cargo/bin/tapi"
+      - "/Users/oghenemarho/.bun/bin/tapi"
+      - "/Users/oghenemarho/.pixi/bin/tapi"
+      - "/Users/oghenemarho/.deno/bin/tapi"
+      - "/opt/homebrew/opt/binutils/bin/tapi"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/opt/X11/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/Users/oghenemarho/.dotnet/tools/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/tapi"
+      - "/Users/oghenemarho/.platformio/penv/bin/tapi"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/tapi"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/tapi"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/tapi"
+      - "/Users/oghenemarho/.orbstack/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+    searched_directories:
+      - "/Users/oghenemarho/.cargo/bin/install_name_tool"
+      - "/Users/oghenemarho/.bun/bin/install_name_tool"
+      - "/Users/oghenemarho/.pixi/bin/install_name_tool"
+      - "/Users/oghenemarho/.deno/bin/install_name_tool"
+      - "/opt/homebrew/opt/binutils/bin/install_name_tool"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65198/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_65198.dir/build.make CMakeFiles/cmTC_65198.dir/build
+        Building CXX object CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 17.0.0 (clang-1700.3.19.1)
+        Target: arm64-apple-darwin25.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm -target-linker-version 1221.4 -v -fcoverage-compilation-dir=/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 (clang-1700.3.19.1) default target arm64-apple-darwin25.2.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_65198
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65198.dir/link.txt --verbose=1
+        Apple clang version 17.0.0 (clang-1700.3.19.1)
+        Target: arm64-apple-darwin25.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_65198 -L. -L/opt/homebrew/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1221.4
+        BUILD 16:29:08 Aug 11 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	.
+        	/opt/homebrew/lib
+        	/usr/local/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_65198
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65198/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_65198.dir/build.make CMakeFiles/cmTC_65198.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.3.19.1)]
+        ignore line: [Target: arm64-apple-darwin25.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.0 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm -target-linker-version 1221.4 -v -fcoverage-compilation-dir=/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-KBrgvm -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.3.19.1) default target arm64-apple-darwin25.2.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_65198]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65198.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.3.19.1)]
+        ignore line: [Target: arm64-apple-darwin25.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_65198 -L. -L/opt/homebrew/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_65198] ==> ignore
+          arg [-L.] ==> ignore
+          arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_65198.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;.;/opt/homebrew/lib;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [.] ==> [/Users/oghenemarho/Developer/cpp_playground]
+        collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/lib;/usr/local/lib;/Users/oghenemarho/Developer/cpp_playground;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1221.4
+      BUILD 16:29:08 Aug 11 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:9 (find_package)"
+    name: "benchmark"
+    configs:
+      -
+        filename: "benchmarkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "benchmark-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "benchmark"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/pkgRedirects/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/pkgRedirects/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.cargo/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.cargo/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.bun/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.bun/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.pixi/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.pixi/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.deno/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.deno/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/binutils/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/binutils/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.local/share/zinit/polaris/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.local/share/zinit/polaris/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.local/share/solana/install/active_release/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.local/share/solana/install/active_release/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/X11/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/dotnet/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/dotnet/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/go/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/go/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Mono.framework/Versions/Current/Commands/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Mono.framework/Versions/Current/Commands/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Library/Android/sdk/emulator/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Library/Android/sdk/emulator/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Library/Android/sdk/platform-tools/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Library/Android/sdk/platform-tools/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.orbstack/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/.orbstack/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/X11R6/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Library/Frameworks/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Library/Frameworks/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Applications/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/oghenemarho/Applications/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Applications/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Applications/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindGit.cmake:111 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:1884 (find_package)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:1619 (__FetchContent_populateSubbuild)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "CMakeLists.txt:18 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/Users/oghenemarho/.cargo/bin/"
+      - "/Users/oghenemarho/.bun/bin/"
+      - "/Users/oghenemarho/.pixi/bin/"
+      - "/Users/oghenemarho/.deno/bin/"
+      - "/opt/homebrew/opt/binutils/bin/"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/oghenemarho/.local/share/solana/install/active_release/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/oghenemarho/.dotnet/tools/"
+      - "/usr/local/go/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/Users/oghenemarho/.platformio/penv/bin/"
+      - "/usr/local/mysql-8.0.29-macos12-arm64/bin/"
+      - "/Users/oghenemarho/Library/Android/sdk/emulator/"
+      - "/Users/oghenemarho/Library/Android/sdk/platform-tools/"
+      - "/Users/oghenemarho/.orbstack/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/oghenemarho/Applications/"
+      - "/Applications/"
+      - "/Applications/Xcode.app/Contents/Applications/"
+      - "/Applications/Xcode.app/Contents/Developer/Applications/"
+    searched_directories:
+      - "/Users/oghenemarho/.cargo/bin/git"
+      - "/Users/oghenemarho/.bun/bin/git"
+      - "/Users/oghenemarho/.pixi/bin/git"
+      - "/Users/oghenemarho/.deno/bin/git"
+      - "/opt/homebrew/opt/binutils/bin/git"
+      - "/Users/oghenemarho/.local/share/zinit/polaris/bin/git"
+    found: "/opt/homebrew/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.bun/bin"
+        - "/Users/oghenemarho/.pixi/bin"
+        - "/Users/oghenemarho/.deno/bin"
+        - "/opt/homebrew/opt/binutils/bin"
+        - "/Users/oghenemarho/.local/share/zinit/polaris/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/oghenemarho/.local/share/solana/install/active_release/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/usr/local/go/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/Users/oghenemarho/.cargo/bin"
+        - "/Users/oghenemarho/.platformio/penv/bin"
+        - "/usr/local/mysql-8.0.29-macos12-arm64/bin"
+        - "/Users/oghenemarho/Library/Android/sdk/emulator"
+        - "/Users/oghenemarho/Library/Android/sdk/platform-tools"
+        - "/Users/oghenemarho/.orbstack/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/oghenemarho/Applications"
+        - "/Applications"
+        - "/Applications/Xcode.app/Contents/Applications"
+        - "/Applications/Xcode.app/Contents/Developer/Applications"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "_deps/benchmark-src/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-RwIrWR"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-RwIrWR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-RwIrWR'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a95a5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a95a5.dir/build.make CMakeFiles/cmTC_a95a5.dir/build
+        Building CXX object CMakeFiles/cmTC_a95a5.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shm_open -std=gnu++14 -arch arm64 -MD -MT CMakeFiles/cmTC_a95a5.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_a95a5.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_a95a5.dir/CheckFunctionExists.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-RwIrWR/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_a95a5
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a95a5.dir/link.txt --verbose=1
+        ld: library 'rt' not found
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a95a5.dir/CheckFunctionExists.cxx.o -o cmTC_a95a5  -lrt
+        make[1]: *** [cmTC_a95a5] Error 1
+        make: *** [cmTC_a95a5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-NuOY0D"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-NuOY0D"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-NuOY0D'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb303/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bb303.dir/build.make CMakeFiles/cmTC_bb303.dir/build
+        Building CXX object CMakeFiles/cmTC_bb303.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11 -arch arm64   -Wall -MD -MT CMakeFiles/cmTC_bb303.dir/src.cxx.o -MF CMakeFiles/cmTC_bb303.dir/src.cxx.o.d -o CMakeFiles/cmTC_bb303.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-NuOY0D/src.cxx
+        Linking CXX executable cmTC_bb303
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb303.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bb303.dir/src.cxx.o -o cmTC_bb303
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-hVhS0M"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-hVhS0M"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-hVhS0M'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf1cb/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cf1cb.dir/build.make CMakeFiles/cmTC_cf1cb.dir/build
+        Building CXX object CMakeFiles/cmTC_cf1cb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11 -arch arm64   -Wextra -MD -MT CMakeFiles/cmTC_cf1cb.dir/src.cxx.o -MF CMakeFiles/cmTC_cf1cb.dir/src.cxx.o.d -o CMakeFiles/cmTC_cf1cb.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-hVhS0M/src.cxx
+        Linking CXX executable cmTC_cf1cb
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf1cb.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cf1cb.dir/src.cxx.o -o cmTC_cf1cb
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-N3Cmfx"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-N3Cmfx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-N3Cmfx'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e931c/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e931c.dir/build.make CMakeFiles/cmTC_e931c.dir/build
+        Building CXX object CMakeFiles/cmTC_e931c.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11 -arch arm64   -Wshadow -MD -MT CMakeFiles/cmTC_e931c.dir/src.cxx.o -MF CMakeFiles/cmTC_e931c.dir/src.cxx.o.d -o CMakeFiles/cmTC_e931c.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-N3Cmfx/src.cxx
+        Linking CXX executable cmTC_e931c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e931c.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e931c.dir/src.cxx.o -o cmTC_e931c
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-CB3EAS"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-CB3EAS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-CB3EAS'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0e993/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0e993.dir/build.make CMakeFiles/cmTC_0e993.dir/build
+        Building CXX object CMakeFiles/cmTC_0e993.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -arch arm64   -Wfloat-equal -MD -MT CMakeFiles/cmTC_0e993.dir/src.cxx.o -MF CMakeFiles/cmTC_0e993.dir/src.cxx.o.d -o CMakeFiles/cmTC_0e993.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-CB3EAS/src.cxx
+        Linking CXX executable cmTC_0e993
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e993.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0e993.dir/src.cxx.o -o cmTC_0e993
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:178 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-A707vB"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-A707vB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-A707vB'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7332/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b7332.dir/build.make CMakeFiles/cmTC_b7332.dir/build
+        Building CXX object CMakeFiles/cmTC_b7332.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11 -arch arm64   -Wold-style-cast -MD -MT CMakeFiles/cmTC_b7332.dir/src.cxx.o -MF CMakeFiles/cmTC_b7332.dir/src.cxx.o.d -o CMakeFiles/cmTC_b7332.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-A707vB/src.cxx
+        Linking CXX executable cmTC_b7332
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7332.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b7332.dir/src.cxx.o -o cmTC_b7332
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:180 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-sslX4F"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-sslX4F"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-sslX4F'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6ca4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a6ca4.dir/build.make CMakeFiles/cmTC_a6ca4.dir/build
+        Building CXX object CMakeFiles/cmTC_a6ca4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11 -arch arm64   -Werror -MD -MT CMakeFiles/cmTC_a6ca4.dir/src.cxx.o -MF CMakeFiles/cmTC_a6ca4.dir/src.cxx.o.d -o CMakeFiles/cmTC_a6ca4.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-sslX4F/src.cxx
+        Linking CXX executable cmTC_a6ca4
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6ca4.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6ca4.dir/src.cxx.o -o cmTC_a6ca4
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:184 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-l39TZb"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-l39TZb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-l39TZb'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7cecf/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7cecf.dir/build.make CMakeFiles/cmTC_7cecf.dir/build
+        Building CXX object CMakeFiles/cmTC_7cecf.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -std=c++11 -arch arm64   -Wsuggest-override -MD -MT CMakeFiles/cmTC_7cecf.dir/src.cxx.o -MF CMakeFiles/cmTC_7cecf.dir/src.cxx.o.d -o CMakeFiles/cmTC_7cecf.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-l39TZb/src.cxx
+        Linking CXX executable cmTC_7cecf
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cecf.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7cecf.dir/src.cxx.o -o cmTC_7cecf
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-8GxPlh"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-8GxPlh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-8GxPlh'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ee97/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9ee97.dir/build.make CMakeFiles/cmTC_9ee97.dir/build
+        Building CXX object CMakeFiles/cmTC_9ee97.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -std=c++11 -arch arm64   -pedantic -MD -MT CMakeFiles/cmTC_9ee97.dir/src.cxx.o -MF CMakeFiles/cmTC_9ee97.dir/src.cxx.o.d -o CMakeFiles/cmTC_9ee97.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-8GxPlh/src.cxx
+        Linking CXX executable cmTC_9ee97
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee97.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9ee97.dir/src.cxx.o -o cmTC_9ee97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7ifR2x"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7ifR2x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7ifR2x'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_18914/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_18914.dir/build.make CMakeFiles/cmTC_18914.dir/build
+        Building CXX object CMakeFiles/cmTC_18914.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11 -arch arm64   -pedantic-errors -MD -MT CMakeFiles/cmTC_18914.dir/src.cxx.o -MF CMakeFiles/cmTC_18914.dir/src.cxx.o.d -o CMakeFiles/cmTC_18914.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7ifR2x/src.cxx
+        Linking CXX executable cmTC_18914
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18914.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_18914.dir/src.cxx.o -o cmTC_18914
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-4XHCaY"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-4XHCaY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-4XHCaY'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b7a8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7b7a8.dir/build.make CMakeFiles/cmTC_7b7a8.dir/build
+        Building CXX object CMakeFiles/cmTC_7b7a8.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -arch arm64   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_7b7a8.dir/src.cxx.o -MF CMakeFiles/cmTC_7b7a8.dir/src.cxx.o.d -o CMakeFiles/cmTC_7b7a8.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-4XHCaY/src.cxx
+        Linking CXX executable cmTC_7b7a8
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b7a8.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7b7a8.dir/src.cxx.o -o cmTC_7b7a8
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:189 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7TxBid"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7TxBid"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7TxBid'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68326/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68326.dir/build.make CMakeFiles/cmTC_68326.dir/build
+        Building CXX object CMakeFiles/cmTC_68326.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -std=c++11 -arch arm64   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_68326.dir/src.cxx.o -MF CMakeFiles/cmTC_68326.dir/src.cxx.o.d -o CMakeFiles/cmTC_68326.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-7TxBid/src.cxx
+        Linking CXX executable cmTC_68326
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68326.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_68326.dir/src.cxx.o -o cmTC_68326
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:192 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-AB4T9d"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-AB4T9d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-AB4T9d'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90397/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90397.dir/build.make CMakeFiles/cmTC_90397.dir/build
+        Building CXX object CMakeFiles/cmTC_90397.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -arch arm64   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_90397.dir/src.cxx.o -MF CMakeFiles/cmTC_90397.dir/src.cxx.o.d -o CMakeFiles/cmTC_90397.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-AB4T9d/src.cxx
+        Linking CXX executable cmTC_90397
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90397.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_90397.dir/src.cxx.o -o cmTC_90397
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:202 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-Apbygi"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-Apbygi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-Apbygi'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_81bef/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_81bef.dir/build.make CMakeFiles/cmTC_81bef.dir/build
+        Building CXX object CMakeFiles/cmTC_81bef.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -arch arm64   -Wno-deprecated -MD -MT CMakeFiles/cmTC_81bef.dir/src.cxx.o -MF CMakeFiles/cmTC_81bef.dir/src.cxx.o.d -o CMakeFiles/cmTC_81bef.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-Apbygi/src.cxx
+        Linking CXX executable cmTC_81bef
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81bef.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_81bef.dir/src.cxx.o -o cmTC_81bef
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:210 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-gmzCtz"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-gmzCtz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-gmzCtz'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b49e9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b49e9.dir/build.make CMakeFiles/cmTC_b49e9.dir/build
+        Building CXX object CMakeFiles/cmTC_b49e9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11 -arch arm64   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_b49e9.dir/src.cxx.o -MF CMakeFiles/cmTC_b49e9.dir/src.cxx.o.d -o CMakeFiles/cmTC_b49e9.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-gmzCtz/src.cxx
+        Linking CXX executable cmTC_b49e9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b49e9.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b49e9.dir/src.cxx.o -o cmTC_b49e9
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:215 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-iXkcif"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-iXkcif"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-iXkcif'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42e62/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_42e62.dir/build.make CMakeFiles/cmTC_42e62.dir/build
+        Building CXX object CMakeFiles/cmTC_42e62.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -arch arm64   -wd654 -MD -MT CMakeFiles/cmTC_42e62.dir/src.cxx.o -MF CMakeFiles/cmTC_42e62.dir/src.cxx.o.d -o CMakeFiles/cmTC_42e62.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-iXkcif/src.cxx
+        clang++: error: unknown argument: '-wd654'
+        clang++: error: unknown argument: '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_42e62.dir/src.cxx.o] Error 1
+        make: *** [cmTC_42e62/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:216 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-V7US3U"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-V7US3U"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-V7US3U'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f46f2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f46f2.dir/build.make CMakeFiles/cmTC_f46f2.dir/build
+        Building CXX object CMakeFiles/cmTC_f46f2.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -arch arm64   -Wthread-safety -MD -MT CMakeFiles/cmTC_f46f2.dir/src.cxx.o -MF CMakeFiles/cmTC_f46f2.dir/src.cxx.o.d -o CMakeFiles/cmTC_f46f2.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-V7US3U/src.cxx
+        Linking CXX executable cmTC_f46f2
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f46f2.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f46f2.dir/src.cxx.o -o cmTC_f46f2
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "_deps/benchmark-src/CMakeLists.txt:218 (cxx_feature_check)"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_92524/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_92524.dir/build.make CMakeFiles/cmTC_92524.dir/build
+        Building CXX object CMakeFiles/cmTC_92524.dir/thread_safety_attributes.cpp.o
+        /usr/bin/c++  -I/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/include -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_92524.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_92524.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_92524.dir/thread_safety_attributes.cpp.o -c /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/thread_safety_attributes.cpp
+        Linking CXX executable cmTC_92524
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92524.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_92524.dir/thread_safety_attributes.cpp.o -o cmTC_92524
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:267 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-pJCHer"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-pJCHer"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-pJCHer'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6f64/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b6f64.dir/build.make CMakeFiles/cmTC_b6f64.dir/build
+        Building CXX object CMakeFiles/cmTC_b6f64.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  --coverage -std=c++11 -arch arm64   --coverage -MD -MT CMakeFiles/cmTC_b6f64.dir/src.cxx.o -MF CMakeFiles/cmTC_b6f64.dir/src.cxx.o.d -o CMakeFiles/cmTC_b6f64.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-pJCHer/src.cxx
+        Linking CXX executable cmTC_b6f64
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6f64.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b6f64.dir/src.cxx.o -o cmTC_b6f64
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "_deps/benchmark-src/CMakeLists.txt:297 (cxx_feature_check)"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42746/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_42746.dir/build.make CMakeFiles/cmTC_42746.dir/build
+        Building CXX object CMakeFiles/cmTC_42746.dir/std_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_42746.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_42746.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_42746.dir/std_regex.cpp.o -c /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_42746
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42746.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_42746.dir/std_regex.cpp.o -o cmTC_42746
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "_deps/benchmark-src/CMakeLists.txt:298 (cxx_feature_check)"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f438/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3f438.dir/build.make CMakeFiles/cmTC_3f438.dir/build
+        Building CXX object CMakeFiles/cmTC_3f438.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_3f438.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_3f438.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_3f438.dir/gnu_posix_regex.cpp.o -c /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/gnu_posix_regex.cpp
+        /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3f438.dir/gnu_posix_regex.cpp.o] Error 1
+        make: *** [cmTC_3f438/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "_deps/benchmark-src/CMakeLists.txt:299 (cxx_feature_check)"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f55a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5f55a.dir/build.make CMakeFiles/cmTC_5f55a.dir/build
+        Building CXX object CMakeFiles/cmTC_5f55a.dir/posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_5f55a.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_5f55a.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_5f55a.dir/posix_regex.cpp.o -c /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_5f55a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f55a.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5f55a.dir/posix_regex.cpp.o -o cmTC_5f55a
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "_deps/benchmark-src/CMakeLists.txt:308 (cxx_feature_check)"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ee4a1/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ee4a1.dir/build.make CMakeFiles/cmTC_ee4a1.dir/build
+        Building CXX object CMakeFiles/cmTC_ee4a1.dir/steady_clock.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_ee4a1.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_ee4a1.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_ee4a1.dir/steady_clock.cpp.o -c /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_ee4a1
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4a1.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ee4a1.dir/steady_clock.cpp.o -o cmTC_ee4a1
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "_deps/benchmark-src/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-PkKVr3"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-PkKVr3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-PkKVr3'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f0ff/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2f0ff.dir/build.make CMakeFiles/cmTC_2f0ff.dir/build
+        Building CXX object CMakeFiles/cmTC_2f0ff.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_2f0ff.dir/src.cxx.o -MF CMakeFiles/cmTC_2f0ff.dir/src.cxx.o.d -o CMakeFiles/cmTC_2f0ff.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-PkKVr3/src.cxx
+        Linking CXX executable cmTC_2f0ff
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f0ff.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2f0ff.dir/src.cxx.o -o cmTC_2f0ff
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "_deps/benchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4a3b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d4a3b.dir/build.make CMakeFiles/cmTC_d4a3b.dir/build
+        Building CXX object CMakeFiles/cmTC_d4a3b.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_d4a3b.dir/pthread_affinity.cpp.o -MF CMakeFiles/cmTC_d4a3b.dir/pthread_affinity.cpp.o.d -o CMakeFiles/cmTC_d4a3b.dir/pthread_affinity.cpp.o -c /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/pthread_affinity.cpp
+        /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/pthread_affinity.cpp:3:3: error: unknown type name 'cpu_set_t'
+            3 |   cpu_set_t set;
+              |   ^
+        /Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/pthread_affinity.cpp:5:23: error: use of undeclared identifier 'CPU_SETSIZE'
+            5 |   for (int i = 0; i < CPU_SETSIZE; ++i) {
+              |                       ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_d4a3b.dir/pthread_affinity.cpp.o] Error 1
+        make: *** [cmTC_d4a3b/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "_deps/benchmark-src/CMakeLists.txt:198 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WCONVERSION"
+    directories:
+      source: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-bymNH5"
+      binary: "/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-bymNH5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake/Modules;/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-bymNH5'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8674a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8674a.dir/build.make CMakeFiles/cmTC_8674a.dir/build
+        Building CXX object CMakeFiles/cmTC_8674a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++17 -arch arm64   -Wconversion -MD -MT CMakeFiles/cmTC_8674a.dir/src.cxx.o -MF CMakeFiles/cmTC_8674a.dir/src.cxx.o.d -o CMakeFiles/cmTC_8674a.dir/src.cxx.o -c /Users/oghenemarho/Developer/cpp_playground/CMakeFiles/CMakeScratch/TryCompile-bymNH5/src.cxx
+        Linking CXX executable cmTC_8674a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8674a.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8674a.dir/src.cxx.o -o cmTC_8674a
+        
+      exitCode: 0
+...

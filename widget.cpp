@@ -15,7 +15,6 @@ public:
             std::cout << "drawing a const widget" << n << std::endl;
         }
     }
-
     void draw(const widget& w)
     {
         if (w.shown())
@@ -51,6 +50,7 @@ void widget::draw()
 {
     pImpl->draw(*this);
 }
+
 int main()
 {
     widget w(7);

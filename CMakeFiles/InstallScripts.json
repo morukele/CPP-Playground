@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/oghenemarho/Developer/cpp_playground/cmake_install.cmake",
+		"/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-build/cmake_install.cmake",
+		"/Users/oghenemarho/Developer/cpp_playground/_deps/benchmark-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

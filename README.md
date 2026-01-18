@@ -34,6 +34,9 @@ This project is a hands-on learning space where I practice implementing fundamen
 - **Linked List to Array** (`linked_list_to_array.cpp`) - Convert linked lists to arrays
 - **Function Declaration** (`function_decleration.cpp`) - Function declaration examples
 
+### CPP Idioms
+- **Pointer to Implementation** - an implementation of the pointer to implementation C++ idiom.
+
 ## Building the Project
 
 This project uses CMake for building. To compile and run:
